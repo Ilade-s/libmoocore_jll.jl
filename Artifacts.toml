@@ -1,0 +1,9 @@
+[[libmoocore]]
+arch = "x86_64"
+git-tree-sha1 = "284195b707991af10efdb22612a10473df02f890"
+libc = "glibc"
+os = "linux"
+
+    [[libmoocore.download]]
+    sha256 = "67e61d2a790e29e5d79c3c8ae791a78ba7659d99b19ce80f3de96233d53b4c01"
+    url = "https://github.com/Ilade-s/libmoocore_dll.jl/releases/download/libmoocore-v0.1.0+0/libmoocore.v0.1.0.x86_64-linux-gnu.tar.gz"
