@@ -1,4 +1,122 @@
 [[libmoocore]]
+arch = "aarch64"
+git-tree-sha1 = "1e0bc541ca07ce7a734702405bad57982ad133ab"
+os = "macos"
+
+    [[libmoocore.download]]
+    sha256 = "ebdb596524b0492f3e3e5219ea62610287af78d24943668366c3894f4f74fabc"
+    url = "https://github.com/Ilade-s/libmoocore_jll.jl/releases/download/libmoocore-v0.1.0+0/libmoocore.v0.1.0.aarch64-apple-darwin.tar.gz"
+[[libmoocore]]
+arch = "aarch64"
+git-tree-sha1 = "e76e35bda523c1944d43fba5d8bfc444076ee4f6"
+libc = "glibc"
+os = "linux"
+
+    [[libmoocore.download]]
+    sha256 = "28fb0899829eb64cb9e71b237a16513e8a0dc0a0588dc0518c2dd82b6893b792"
+    url = "https://github.com/Ilade-s/libmoocore_jll.jl/releases/download/libmoocore-v0.1.0+0/libmoocore.v0.1.0.aarch64-linux-gnu.tar.gz"
+[[libmoocore]]
+arch = "aarch64"
+git-tree-sha1 = "46e582d894f0ff9b510746b36134f0dcf32a65b9"
+libc = "musl"
+os = "linux"
+
+    [[libmoocore.download]]
+    sha256 = "29e026e07452f9165f2d19928d0ce011cd29a51409a9dc18072e1e49773e6a76"
+    url = "https://github.com/Ilade-s/libmoocore_jll.jl/releases/download/libmoocore-v0.1.0+0/libmoocore.v0.1.0.aarch64-linux-musl.tar.gz"
+[[libmoocore]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "8cc8ec10d56c0e43e0e55c45a142e2f813e32e25"
+libc = "glibc"
+os = "linux"
+
+    [[libmoocore.download]]
+    sha256 = "4f1706d4ed2615fc5e2e8c9e056825e0651b3bd39dba22be1ad1f00e0af34d21"
+    url = "https://github.com/Ilade-s/libmoocore_jll.jl/releases/download/libmoocore-v0.1.0+0/libmoocore.v0.1.0.armv6l-linux-gnueabihf.tar.gz"
+[[libmoocore]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "e995f6a37a25745792cd540017f0b8ceaa13da8e"
+libc = "musl"
+os = "linux"
+
+    [[libmoocore.download]]
+    sha256 = "8186d15c9f6a30c6796c8dde9dd48e54a4efe10b4359f65739f4f53ce9e8d019"
+    url = "https://github.com/Ilade-s/libmoocore_jll.jl/releases/download/libmoocore-v0.1.0+0/libmoocore.v0.1.0.armv6l-linux-musleabihf.tar.gz"
+[[libmoocore]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "cb8f3a631a184c9ffecb3741b1b4d2591fc50c64"
+libc = "glibc"
+os = "linux"
+
+    [[libmoocore.download]]
+    sha256 = "37dc53a3d625725a7644537365c36131cd387a1a5631837f09b76c871d63f8bb"
+    url = "https://github.com/Ilade-s/libmoocore_jll.jl/releases/download/libmoocore-v0.1.0+0/libmoocore.v0.1.0.armv7l-linux-gnueabihf.tar.gz"
+[[libmoocore]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "40dfed1b67d2f7a516b1ca9b015a2fdc44dd9843"
+libc = "musl"
+os = "linux"
+
+    [[libmoocore.download]]
+    sha256 = "27c679a2a9027673d33e0fd55cef7e805aa58099c3d78fc02690f4988a6c5dec"
+    url = "https://github.com/Ilade-s/libmoocore_jll.jl/releases/download/libmoocore-v0.1.0+0/libmoocore.v0.1.0.armv7l-linux-musleabihf.tar.gz"
+[[libmoocore]]
+arch = "i686"
+git-tree-sha1 = "57239ee413050aa478a7774d14e96ef7701c3f6d"
+libc = "glibc"
+os = "linux"
+
+    [[libmoocore.download]]
+    sha256 = "4087f06be52764a578717fdcfb2a76f08064173f62ac7590c84e4ebc4689e536"
+    url = "https://github.com/Ilade-s/libmoocore_jll.jl/releases/download/libmoocore-v0.1.0+0/libmoocore.v0.1.0.i686-linux-gnu.tar.gz"
+[[libmoocore]]
+arch = "i686"
+git-tree-sha1 = "7ae1952ede21036ba094c104370fc99b11825d3e"
+libc = "musl"
+os = "linux"
+
+    [[libmoocore.download]]
+    sha256 = "fac55fae795b0e876852b9932ae0030b73abd185797936df87ed1817bdab8aeb"
+    url = "https://github.com/Ilade-s/libmoocore_jll.jl/releases/download/libmoocore-v0.1.0+0/libmoocore.v0.1.0.i686-linux-musl.tar.gz"
+[[libmoocore]]
+arch = "i686"
+git-tree-sha1 = "c92e44b57222ac4945f65dbf42c8afb5fa68685f"
+os = "windows"
+
+    [[libmoocore.download]]
+    sha256 = "460a0533f0a7f449a2e572bdff6a091c0a391774b6c752aaa1cbe22d029b6252"
+    url = "https://github.com/Ilade-s/libmoocore_jll.jl/releases/download/libmoocore-v0.1.0+0/libmoocore.v0.1.0.i686-w64-mingw32.tar.gz"
+[[libmoocore]]
+arch = "powerpc64le"
+git-tree-sha1 = "6dcc1db36ba5c5a8f2a06c7650174806bdfd5830"
+libc = "glibc"
+os = "linux"
+
+    [[libmoocore.download]]
+    sha256 = "f57d78f3e5e7d83c663778748b5ad082079fdf7bf8fbc722d99beb91d2950257"
+    url = "https://github.com/Ilade-s/libmoocore_jll.jl/releases/download/libmoocore-v0.1.0+0/libmoocore.v0.1.0.powerpc64le-linux-gnu.tar.gz"
+[[libmoocore]]
+arch = "riscv64"
+git-tree-sha1 = "388e06a38e01cc6a7aadf79545ed076a2b4928de"
+libc = "glibc"
+os = "linux"
+
+    [[libmoocore.download]]
+    sha256 = "73762e97457cfc48fa0663dfe93323d96e9b64ecde5dccd427a719467547c4e6"
+    url = "https://github.com/Ilade-s/libmoocore_jll.jl/releases/download/libmoocore-v0.1.0+0/libmoocore.v0.1.0.riscv64-linux-gnu.tar.gz"
+[[libmoocore]]
+arch = "x86_64"
+git-tree-sha1 = "e1536feaa43f25e3ad00af6ef1456606246b15d0"
+os = "macos"
+
+    [[libmoocore.download]]
+    sha256 = "32f54ac4dfc29665b8612c10146d4b211f97676f32b460d55d7ade1e611c1df1"
+    url = "https://github.com/Ilade-s/libmoocore_jll.jl/releases/download/libmoocore-v0.1.0+0/libmoocore.v0.1.0.x86_64-apple-darwin.tar.gz"
+[[libmoocore]]
 arch = "x86_64"
 git-tree-sha1 = "284195b707991af10efdb22612a10473df02f890"
 libc = "glibc"
@@ -6,4 +124,21 @@ os = "linux"
 
     [[libmoocore.download]]
     sha256 = "67e61d2a790e29e5d79c3c8ae791a78ba7659d99b19ce80f3de96233d53b4c01"
-    url = "https://github.com/Ilade-s/libmoocore_dll.jl/releases/download/libmoocore-v0.1.0+0/libmoocore.v0.1.0.x86_64-linux-gnu.tar.gz"
+    url = "https://github.com/Ilade-s/libmoocore_jll.jl/releases/download/libmoocore-v0.1.0+0/libmoocore.v0.1.0.x86_64-linux-gnu.tar.gz"
+[[libmoocore]]
+arch = "x86_64"
+git-tree-sha1 = "642443fae3e476e5615cde22687a06f253cb52cc"
+libc = "musl"
+os = "linux"
+
+    [[libmoocore.download]]
+    sha256 = "90826b0f27fcc95436b2c7e018a4fcc7f3e4f9c4f35d37cfe628977bb78d4c6d"
+    url = "https://github.com/Ilade-s/libmoocore_jll.jl/releases/download/libmoocore-v0.1.0+0/libmoocore.v0.1.0.x86_64-linux-musl.tar.gz"
+[[libmoocore]]
+arch = "x86_64"
+git-tree-sha1 = "effabedfdc6211faff700c7e30f1678f98da331d"
+os = "windows"
+
+    [[libmoocore.download]]
+    sha256 = "acf873496035d7b5904d2bf773747a8e1779e2a6ed4be59049fa9165b54209f5"
+    url = "https://github.com/Ilade-s/libmoocore_jll.jl/releases/download/libmoocore-v0.1.0+0/libmoocore.v0.1.0.x86_64-w64-mingw32.tar.gz"

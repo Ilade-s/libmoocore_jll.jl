@@ -10,14 +10,29 @@ For more details about JLL packages and how to use them, see `BinaryBuilder.jl` 
 
 The tarballs for `libmoocore_jll.jl` have been built from these sources:
 
-* git repository: https://github.com/Ilade-s/moocore.git (revision: `07a2b8f3e4bbd028c5801872e1cc0d7264fe3066`)
+* git repository: https://github.com/Ilade-s/moocore.git (revision: `0084ee5d14a1be57ebddf7d93c48908d27c8579c`)
 * files in directory, relative to originating `build_tarballs.jl`: `./bundled`
 
 ## Platforms
 
 `libmoocore_jll.jl` is available for the following platforms:
 
+* `Platform("aarch64", "macos"; )` (`aarch64-apple-darwin`)
+* `Platform("aarch64", "linux"; libc = "glibc")` (`aarch64-linux-gnu`)
+* `Platform("aarch64", "linux"; libc = "musl")` (`aarch64-linux-musl`)
+* `Platform("armv6l", "linux"; call_abi = "eabihf", libc = "glibc")` (`armv6l-linux-gnueabihf`)
+* `Platform("armv6l", "linux"; call_abi = "eabihf", libc = "musl")` (`armv6l-linux-musleabihf`)
+* `Platform("armv7l", "linux"; call_abi = "eabihf", libc = "glibc")` (`armv7l-linux-gnueabihf`)
+* `Platform("armv7l", "linux"; call_abi = "eabihf", libc = "musl")` (`armv7l-linux-musleabihf`)
+* `Platform("i686", "linux"; libc = "glibc")` (`i686-linux-gnu`)
+* `Platform("i686", "linux"; libc = "musl")` (`i686-linux-musl`)
+* `Platform("i686", "windows"; )` (`i686-w64-mingw32`)
+* `Platform("powerpc64le", "linux"; libc = "glibc")` (`powerpc64le-linux-gnu`)
+* `Platform("riscv64", "linux"; libc = "glibc")` (`riscv64-linux-gnu`)
+* `Platform("x86_64", "macos"; )` (`x86_64-apple-darwin`)
 * `Platform("x86_64", "linux"; libc = "glibc")` (`x86_64-linux-gnu`)
+* `Platform("x86_64", "linux"; libc = "musl")` (`x86_64-linux-musl`)
+* `Platform("x86_64", "windows"; )` (`x86_64-w64-mingw32`)
 
 ## Products
 
